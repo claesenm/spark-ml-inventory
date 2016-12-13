@@ -2,7 +2,7 @@
 
 A curated inventory of machine learning methods available on the Spark platform, both in official and third party libraries.
 
-This inventory is inspired by []mfornos’ inventory of awesome microservices](https://github.com/mfornos/awesome-microservices).
+This inventory is inspired by [mfornos’ inventory of awesome microservices](https://github.com/mfornos/awesome-microservices).
 
 <!-- https://github.com/thlorenz/doctoc -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
