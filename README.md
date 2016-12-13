@@ -1,6 +1,6 @@
 # Spark machine learning inventory [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated inventory of machine learning methods available on the Spark platform, both in official and third party libraries.
+A curated inventory of machine learning methods available on the Apache Spark platform, both in official and third party libraries.
 
 This inventory is inspired by [mfornos’ inventory of awesome microservices](https://github.com/mfornos/awesome-microservices).
 
@@ -27,6 +27,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
   - [Regression](#regression)
   - [Statistics](#statistics)
   - [Tensor decompositions](#tensor-decompositions)
+- [Practical info](#practical-info)
   - [License](#license)
   - [Contributing](#contributing)
   - [Acknowledgments](#acknowledgments)
@@ -129,6 +130,8 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 
 <!-- END OF MAIN CONTENT -->
+
+# Practical info
 
 ## License
 
