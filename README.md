@@ -61,6 +61,8 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 ### Interfaces
 
+- [CaffeOnSpark](https://github.com/yahoo/CaffeOnSpark) - CaffeOnSpark brings deep learning to Hadoop and Spark clusters
+- [Elephas](http://maxpumperla.github.io/elephas/) - Distributed Deep learning with Keras & Spark
 - [Sparkling Water](http://www.h2o.ai/sparkling-water/) - H2O + Apache Spark
 - [Spark CoreNLP](https://github.com/databricks/spark-corenlp) - CoreNLP wrapper for Spark
 - [Sparkit-learn](https://github.com/lensacom/sparkit-learn) - PySpark + Scikit-learn = Sparkit-learn
@@ -85,6 +87,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [Distributed DataFrame](http://ddf.io/) - Simplify Analytics on Disparate Data Sources via a Uniform API Across Engines
 - [Spark Jobserver](https://github.com/spark-jobserver/spark-jobserver) - REST job server for Apache Spark
 - [Spark PMML exporter validator](https://github.com/selvinsource/spark-pmml-exporter-validator) - Using JPMML Evaluator to validate the PMML models exported from Spark
+- [Twitter stream ML](https://github.com/giorgioinf/twitter-stream-mlhttps://github.com/giorgioinf/twitter-stream-ml) - Machine Learning over Twitter's stream. Using Apache Spark, Web Server and Lightning Graph server.
 - [Velox](https://github.com/amplab/velox-modelserver) - a system for serving machine learning predictions
 
 
