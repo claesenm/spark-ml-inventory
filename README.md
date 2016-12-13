@@ -50,12 +50,15 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [Aerosolve](http://airbnb.io/aerosolve/) - A machine learning package built for humans
 - [CoCoA](https://github.com/gingsmith/cocoa) - communication-efficient distributed coordinate ascent
 - [Deeplearning4j](https://deeplearning4j.org/spark.html) - Deeplearning4j on Spark
+- [DissolveStruct](http://dalab.github.io/dissolve-struct/) - Distributed Solver for Structured Prediction
 - [Elephas](http://maxpumperla.github.io/elephas/) - Distributed Deep learning with Keras & Spark
 - [Generalized K-means clustering](https://github.com/derrickburns/generalized-kmeans-clustering) - generalizes the Spark MLLIB Batch and Streaming K-Means clusterers in every practical way
 - [KeystoneML](http://keystone-ml.org/) - KeystoneML is a software framework, written in Scala, from the UC Berkeley AMPLab designed to simplify the construction of large scale, end-to-end, machine learning pipelines with Apache Spark
 - [MLbase](http://www.mlbase.org/) - MLbase is a platform addressing implementing and consuming Machine Learning at scale
+- [ml-matrix](https://github.com/amplab/ml-matrix) - distributed matrix library
 - [Sparkling Water](http://www.h2o.ai/sparkling-water/) - H2O + Apache Spark
 - [Splash](http://zhangyuc.github.io/splash/) - a general framework for parallelizing stochastic learning algorithms on multi-node clusters
+- [Spectral LDA on Spark](https://github.com/FurongHuang/spectrallda-tensorspark) -  implements a spectral (third order tensor decomposition) learning method for learning LDA topic model on Spark
 - [Thunder](http://thunder-project.org/) - scalable image and time series analysis
 - [Zen](https://github.com/cloudml/zen) - aims to provide the largest scale and the most efficient machine learning platform on top of Spark, including but not limited to logistic regression, latent dirichilet allocation, factorization machines and DNN
 
@@ -65,6 +68,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [Elephas](http://maxpumperla.github.io/elephas/) - Distributed Deep learning with Keras & Spark
 - [Sparkling Water](http://www.h2o.ai/sparkling-water/) - H2O + Apache Spark
 - [Spark CoreNLP](https://github.com/databricks/spark-corenlp) - CoreNLP wrapper for Spark
+- [sparkplyr](http://spark.rstudio.com/mllib.html) - sparklyr provides R bindings to Spark’s distributed machine learning library
 - [Sparkit-learn](https://github.com/lensacom/sparkit-learn) - PySpark + Scikit-learn = Sparkit-learn
 - [Hivemall-Spark](https://github.com/maropu/hivemall-spark) - A Hivemall wrapper for Spark
 - [Spark PMML exporter validator](https://github.com/selvinsource/spark-pmml-exporter-validator) - Using JPMML Evaluator to validate the PMML models exported from Spark
@@ -85,6 +89,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 - [Apache Toree](https://toree.apache.org/) - Gateway to Apache Spark
 - [Distributed DataFrame](http://ddf.io/) - Simplify Analytics on Disparate Data Sources via a Uniform API Across Engines
+- [PipelineIO](http://pipeline.io/) - Extend ML Pipelines to Serve Production Users
 - [Spark Jobserver](https://github.com/spark-jobserver/spark-jobserver) - REST job server for Apache Spark
 - [Spark PMML exporter validator](https://github.com/selvinsource/spark-pmml-exporter-validator) - Using JPMML Evaluator to validate the PMML models exported from Spark
 - [Twitter stream ML](https://github.com/giorgioinf/twitter-stream-mlhttps://github.com/giorgioinf/twitter-stream-ml) - Machine Learning over Twitter's stream. Using Apache Spark, Web Server and Lightning Graph server.
