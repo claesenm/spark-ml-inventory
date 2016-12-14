@@ -145,7 +145,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 - **Hierarchical clustering**: [Bisecting K-means](https://github.com/yu-iskw/bisecting-kmeans)
 - **K-Means**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html), [Bisecting K-means](https://github.com/yu-iskw/bisecting-kmeans), [Generalized K-means clustering](https://github.com/derrickburns/generalized-kmeans-clustering)
-- **TSNE**: [Spark TSNE](https://github.com/saurfang/spark-tsne)
+- **t-SNE**: [Spark TSNE](https://github.com/saurfang/spark-tsne)
 
 
 ## Deep learning
