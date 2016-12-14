@@ -2,8 +2,6 @@
 
 A curated inventory of machine learning methods available on the Apache Spark platform, both in official and third party libraries.
 
-This inventory is inspired by [mfornos’ inventory of awesome microservices](https://github.com/mfornos/awesome-microservices).
-
 <!-- https://github.com/thlorenz/doctoc -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -180,7 +178,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [Bisecting K-means](https://github.com/yu-iskw/bisecting-kmeans) - implementation of Bisecting KMeans Clustering which is a kind of Hierarchical Clustering algorithm
 - [Generalized K-means clustering](https://github.com/derrickburns/generalized-kmeans-clustering) - generalizes the Spark MLLIB Batch and Streaming K-Means clusterers in every practical way
 - [Patchwork](https://github.com/crim-ca/patchwork) - Highly Scalable Grid-Density Clustering Algorithm for Spark MLLib
-- [Spark TSNE](https://github.com/saurfang/spark-tsne) - Distributed t-SNE via Apache Spark
+- [spark-tsne](https://github.com/saurfang/spark-tsne) - Distributed t-SNE via Apache Spark
 - [StreamDM](http://huawei-noah.github.io/streamDM/) - Data Mining for Spark Streaming
 
 ### Algorithms
@@ -189,7 +187,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - **Hierarchical clustering**: [Bisecting K-means](https://github.com/yu-iskw/bisecting-kmeans)
 - **K-Means**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html), [Bisecting K-means](https://github.com/yu-iskw/bisecting-kmeans), [Generalized K-means clustering](https://github.com/derrickburns/generalized-kmeans-clustering)
 - **StreamKM++**: [StreamDM](http://huawei-noah.github.io/streamDM/)
-- **t-SNE**: [Spark TSNE](https://github.com/saurfang/spark-tsne)
+- **t-SNE**: [spark-tsne](https://github.com/saurfang/spark-tsne)
 
 
 ## Deep learning
@@ -209,13 +207,13 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [Modelmatrix](https://github.com/collectivemedia/modelmatrix) - Sparse feature extraction with Spark
 - [Spark Infotheoretic Feature Selection](https://github.com/sramirez/spark-infotheoretic-feature-selection) - generic implementation of greedy Information Theoretic Feature Selection (FS) methods
 - [Spark MLDP discetization](https://github.com/sramirez/spark-MDLP-discretization) -  implementation of Fayyad's discretizer based on Minimum Description Length Principle (MDLP)
-- [Spark TSNE](https://github.com/saurfang/spark-tsne) - Distributed t-SNE via Apache Spark
+- [spark-tsne](https://github.com/saurfang/spark-tsne) - Distributed t-SNE via Apache Spark
 
 ### Algorithms
 
 - **Information theoretic**: [Spark Infotheoretic Feature Selection](https://github.com/sramirez/spark-infotheoretic-feature-selection)
 - **MLDP discretization**: [Spark MLDP discetization](https://github.com/sramirez/spark-MDLP-discretization)
-- **t-SNE**: [Spark TSNE](https://github.com/saurfang/spark-tsne)
+- **t-SNE**: [spark-tsne](https://github.com/saurfang/spark-tsne)
 
 ## Graph computations
 
@@ -338,4 +336,7 @@ To add content, feel free to [open an issue](https://github.com/claesenm/spark-m
 
 ## Acknowledgments
 
-Table of contents generated with [DocToc](https://github.com/thlorenz/doctoc)
+This inventory is inspired by [mfornos’ inventory of awesome microservices](https://github.com/mfornos/awesome-microservices).
+
+Table of contents generated with [DocToc](https://github.com/thlorenz/doctoc).
+
