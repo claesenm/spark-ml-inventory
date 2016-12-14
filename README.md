@@ -46,13 +46,15 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
     - [Libraries](#libraries-9)
     - [Algorithms](#algorithms-6)
   - [Regression](#regression)
-  - [Statistics](#statistics)
-  - [Tensor decompositions](#tensor-decompositions)
     - [Libraries](#libraries-10)
     - [Algorithms](#algorithms-7)
-  - [Time series](#time-series)
+  - [Statistics](#statistics)
+  - [Tensor decompositions](#tensor-decompositions)
     - [Libraries](#libraries-11)
     - [Algorithms](#algorithms-8)
+  - [Time series](#time-series)
+    - [Libraries](#libraries-12)
+    - [Algorithms](#algorithms-9)
 - [Practical info](#practical-info)
   - [License](#license)
   - [Contributing](#contributing)
@@ -75,6 +77,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 ### Third party libraries
 
 - [Aerosolve](http://airbnb.io/aerosolve/) - A machine learning package built for humans
+- [AMIDST](http://www.amidsttoolbox.com/) - probabilistic machine learning
 - [CoCoA](https://github.com/gingsmith/cocoa) - communication-efficient distributed coordinate ascent
 - [Deeplearning4j](https://deeplearning4j.org/spark.html) - Deeplearning4j on Spark
 - [DissolveStruct](http://dalab.github.io/dissolve-struct/) - Distributed Solver for Structured Prediction
@@ -84,10 +87,12 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [KeystoneML](http://keystone-ml.org/) - KeystoneML is a software framework, written in Scala, from the UC Berkeley AMPLab designed to simplify the construction of large scale, end-to-end, machine learning pipelines with Apache Spark
 - [MLbase](http://www.mlbase.org/) - MLbase is a platform addressing implementing and consuming Machine Learning at scale
 - [ml-matrix](https://github.com/amplab/ml-matrix) - distributed matrix library
+- [revrand](https://github.com/NICTA/revrand) - A library of scalable Bayesian generalised linear models with fancy features
 - [spark-ts](https://github.com/sryza/spark-timeseries) - Time series for Spark
 - [Sparkling Water](http://www.h2o.ai/sparkling-water/) - H2O + Apache Spark
 - [Splash](http://zhangyuc.github.io/splash/) - a general framework for parallelizing stochastic learning algorithms on multi-node clusters
 - [Spectral LDA on Spark](https://github.com/FurongHuang/spectrallda-tensorspark) -  implements a spectral (third order tensor decomposition) learning method for learning LDA topic model on Spark
+- [StreamDM](http://huawei-noah.github.io/streamDM/) - Data Mining for Spark Streaming
 - [Thunder](http://thunder-project.org/) - scalable image and time series analysis
 - [Zen](https://github.com/cloudml/zen) - aims to provide the largest scale and the most efficient machine learning platform on top of Spark, including but not limited to logistic regression, latent dirichilet allocation, factorization machines and DNN
 
@@ -140,10 +145,12 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [Elephas](http://maxpumperla.github.io/elephas/) - Distributed Deep learning with Keras & Spark
 - [spark-FM-parallelISGD](https://github.com/blebreton/spark-FM-parallelSGD) - Implementation of Factorization Machines on Spark using parallel stochastic gradient descent
 - [SparkBoost](https://github.com/tizfa/sparkboost) - A distributed implementation of AdaBoost.MH and MP-Boost using Apache Spark
+- [StreamDM](http://huawei-noah.github.io/streamDM/) - Data Mining for Spark Streaming
 
 ### Algorithms
 
 - **Adaboost**: [SparkBoost](https://github.com/tizfa/sparkboost)
+- **Bagging**: [StreamDM](http://huawei-noah.github.io/streamDM/)
 
 ## Classification
 
@@ -153,10 +160,16 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [Spark kNN graphs](https://github.com/tdebatty/spark-knn-graphs) - Spark algorithms for building k-nn graphs
 - [Spark-libFM](https://github.com/zhengruifeng/spark-libFM) - implementation of Factorization Machines
 - [Sparkling Ferns](https://github.com/CeON/sparkling-ferns) - Implementation of Random Ferns for Apache Spark
+- [StreamDM](http://huawei-noah.github.io/streamDM/) - Data Mining for Spark Streaming
 
 ### Algorithms
 
 - **Factorization Machines**: [spark-FM-parallelISGD](https://github.com/blebreton/spark-FM-parallelSGD), [Spark-libFM](https://github.com/zhengruifeng/spark-libFM)
+- **Hoeffding Decision Trees**: [StreamDM](http://huawei-noah.github.io/streamDM/)
+- **logistic regression**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html), [StreamDM](http://huawei-noah.github.io/streamDM/)
+- **Naive Bayes**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html), [StreamDM](http://huawei-noah.github.io/streamDM/)
+- **Perceptron**: [StreamDM](http://huawei-noah.github.io/streamDM/)
+- **SVM**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html), [StreamDM](http://huawei-noah.github.io/streamDM/)
 
 
 ## Clustering
@@ -167,11 +180,14 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [Generalized K-means clustering](https://github.com/derrickburns/generalized-kmeans-clustering) - generalizes the Spark MLLIB Batch and Streaming K-Means clusterers in every practical way
 - [Patchwork](https://github.com/crim-ca/patchwork) - Highly Scalable Grid-Density Clustering Algorithm for Spark MLLib
 - [Spark TSNE](https://github.com/saurfang/spark-tsne) - Distributed t-SNE via Apache Spark
+- [StreamDM](http://huawei-noah.github.io/streamDM/) - Data Mining for Spark Streaming
 
 ### Algorithms
 
+- **CluStream**: [StreamDM](http://huawei-noah.github.io/streamDM/)
 - **Hierarchical clustering**: [Bisecting K-means](https://github.com/yu-iskw/bisecting-kmeans)
 - **K-Means**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html), [Bisecting K-means](https://github.com/yu-iskw/bisecting-kmeans), [Generalized K-means clustering](https://github.com/derrickburns/generalized-kmeans-clustering)
+- **StreamKM++**: [StreamDM](http://huawei-noah.github.io/streamDM/)
 - **t-SNE**: [Spark TSNE](https://github.com/saurfang/spark-tsne)
 
 
@@ -207,6 +223,8 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [GraphX](http://spark.apache.org/graphx/) - Apache Spark's API for graphs and graph-parallel computation
 
 - [Spark kNN graphs](https://github.com/tdebatty/spark-knn-graphs) - Spark algorithms for building k-nn graphs
+- [SparklingGraph](https://sparkling-graph.github.io/) - large scale, distributed graph processing made easy
+
 
 ## Linear algebra
 
@@ -262,6 +280,15 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 ## Regression
 
+### Libraries
+
+- [revrand](https://github.com/NICTA/revrand) - A library of scalable Bayesian generalised linear models with fancy features
+- [StreamDM](http://huawei-noah.github.io/streamDM/) - Data Mining for Spark Streaming
+
+### Algorithms
+
+- **Bayesian generalised linear models**: [revrand](https://github.com/NICTA/revrand)
+- **Linear regression**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html), [StreamDM](http://huawei-noah.github.io/streamDM/)
 
 ## Statistics
 
