@@ -114,6 +114,10 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [spark-FM-parallelISGD](https://github.com/blebreton/spark-FM-parallelSGD) - Implementation of Factorization Machines on Spark using parallel stochastic gradient descent
 - [SparkBoost](https://github.com/tizfa/sparkboost) - A distributed implementation of AdaBoost.MH and MP-Boost using Apache Spark
 
+### Algorithms
+
+- **Adaboost**: [SparkBoost](https://github.com/tizfa/sparkboost)
+
 ## Classification
 
 ### Libraries
@@ -123,6 +127,11 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [Spark-libFM](https://github.com/zhengruifeng/spark-libFM) - implementation of Factorization Machines
 - [Sparkling Ferns](https://github.com/CeON/sparkling-ferns) - Implementation of Random Ferns for Apache Spark
 
+### Algorithms
+
+- **Factorization Machines**: [spark-FM-parallelISGD](https://github.com/blebreton/spark-FM-parallelSGD), [Spark-libFM](https://github.com/zhengruifeng/spark-libFM)
+
+
 ## Clustering
 
 ### Libraries
@@ -131,6 +140,13 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [Generalized K-means clustering](https://github.com/derrickburns/generalized-kmeans-clustering) - generalizes the Spark MLLIB Batch and Streaming K-Means clusterers in every practical way
 - [Patchwork](https://github.com/crim-ca/patchwork) - Highly Scalable Grid-Density Clustering Algorithm for Spark MLLib
 - [Spark TSNE](https://github.com/saurfang/spark-tsne) - Distributed t-SNE via Apache Spark
+
+### Algorithms
+
+- **Hierarchical clustering**: [Bisecting K-means](https://github.com/yu-iskw/bisecting-kmeans)
+- **K-Means**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html), [Bisecting K-means](https://github.com/yu-iskw/bisecting-kmeans), [Generalized K-means clustering](https://github.com/derrickburns/generalized-kmeans-clustering)
+- **TSNE**: [Spark TSNE](https://github.com/saurfang/spark-tsne)
+
 
 ## Deep learning
 
