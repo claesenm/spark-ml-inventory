@@ -183,7 +183,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - **Open information extraction**: [Spark CoreNLP](https://github.com/databricks/spark-corenlp)
 - **Part-of-speech (POS) tagging**: [Spark CoreNLP](https://github.com/databricks/spark-corenlp)
 - **Sentiment analysis**: [Spark CoreNLP](https://github.com/databricks/spark-corenlp)
-- **Topic Modelling**: [TopicModelling](https://github.com/intel-analytics/TopicModeling)
+- **Topic Modelling**: [Spectral LDA on Spark](https://github.com/FurongHuang/spectrallda-tensorspark), [TopicModelling](https://github.com/intel-analytics/TopicModeling)
 
 ## Optimization
 
