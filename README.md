@@ -71,6 +71,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [Spark CoreNLP](https://github.com/databricks/spark-corenlp) - CoreNLP wrapper for Spark
 - [sparkplyr](http://spark.rstudio.com/mllib.html) - sparklyr provides R bindings to Spark’s distributed machine learning library
 - [Sparkit-learn](https://github.com/lensacom/sparkit-learn) - PySpark + Scikit-learn = Sparkit-learn
+- [Spark-TFOCS](https://github.com/databricks/spark-tfocs) - port of TFOCS: Templates for First-Order Conic Solvers (cvxr.com/tfocs)
 - [Hivemall-Spark](https://github.com/maropu/hivemall-spark) - A Hivemall wrapper for Spark
 - [Spark PMML exporter validator](https://github.com/selvinsource/spark-pmml-exporter-validator) - Using JPMML Evaluator to validate the PMML models exported from Spark
 
@@ -102,21 +103,61 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 # Algorithm inventory
 
+- [MLlib](http://spark.apache.org/docs/latest/ml-guide.html) - Apache Spark's built in machine learning library
+
+## Ensemble learning
+
+- [SparkBoost](https://github.com/tizfa/sparkboost) - A distributed implementation of AdaBoost.MH and MP-Boost using Apache Spark
+
 ## Classification
 
+- [DissolveStruct](http://dalab.github.io/dissolve-struct/) - Distributed Solver for Structured Prediction
+- [Spark kNN graphs](https://github.com/tdebatty/spark-knn-graphs) - Spark algorithms for building k-nn graphs
+- [Spark-libFM](https://github.com/zhengruifeng/spark-libFM) - implementation of Factorization Machines
+- [Sparkling Ferns](https://github.com/CeON/sparkling-ferns) - Implementation of Random Ferns for Apache Spark
 
 ## Clustering
 
+- [Bisecting K-means](https://github.com/yu-iskw/bisecting-kmeans) - implementation of Bisecting KMeans Clustering which is a kind of Hierarchical Clustering algorithm
 - [Generalized K-means clustering](https://github.com/derrickburns/generalized-kmeans-clustering) - generalizes the Spark MLLIB Batch and Streaming K-Means clusterers in every practical way
+- [Patchwork](https://github.com/crim-ca/patchwork) - Highly Scalable Grid-Density Clustering Algorithm for Spark MLLib
+- [Spark TSNE](https://github.com/saurfang/spark-tsne) - Distributed t-SNE via Apache Spark
 
 ## Deep learning
 
+- [DeepSpark](https://github.com/nearbydelta/deepspark) - A neural network library which uses Spark RDD instances
+
+## Feature selection & dimensionality reduction
+
+- [Modelmatrix](https://github.com/collectivemedia/modelmatrix) - Sparse feature extraction with Spark
+- [Spark Infotheoretic Feature Selection](https://github.com/sramirez/spark-infotheoretic-feature-selection) - generic implementation of greedy Information Theoretic Feature Selection (FS) methods
+- [Spark MLDP discetization](https://github.com/sramirez/spark-MDLP-discretization) -  implementation of Fayyad's discretizer based on Minimum Description Length Principle (MDLP)
+- [Spark TSNE](https://github.com/saurfang/spark-tsne) - Distributed t-SNE via Apache Spark
 
 ## Graph computations
 
-## Matrix factorization
+- [GraphX](http://spark.apache.org/graphx/) - Apache Spark's API for graphs and graph-parallel computation
+
+- [Spark kNN graphs](https://github.com/tdebatty/spark-knn-graphs) - Spark algorithms for building k-nn graphs
+
+## Linear algebra
+
+- [lazy-linalg](https://github.com/brkyvz/lazy-linalg) - A package full of linear algebra operators for Apache Spark MLlib's linalg package
+- [ml-matrix](https://github.com/amplab/ml-matrix) - distributed matrix library
+
+## Matrix factorization & recommender systems
+
+- [Spark-libFM](https://github.com/zhengruifeng/spark-libFM) - implementation of Factorization Machines
+- [Streaming Matrix Factorization](https://github.com/brkyvz/streaming-matrix-factorization) - Distributed Streaming Matrix Factorization implemented on Spark for Recommendation Systems
 
 ## Natural language processing
+
+- [TopicModelling](https://github.com/intel-analytics/TopicModeling) - Topic Modeling on Apache Spark
+
+## Optimization
+
+- [Spark-TFOCS](https://github.com/databricks/spark-tfocs) - port of TFOCS: Templates for First-Order Conic Solvers (cvxr.com/tfocs)
+
 
 ## Regression
 
