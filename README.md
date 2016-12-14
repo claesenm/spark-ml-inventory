@@ -166,10 +166,11 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 - **Factorization Machines**: [spark-FM-parallelISGD](https://github.com/blebreton/spark-FM-parallelSGD), [Spark-libFM](https://github.com/zhengruifeng/spark-libFM)
 - **Hoeffding Decision Trees**: [StreamDM](http://huawei-noah.github.io/streamDM/)
+- **Linear Discriminant Analysis (LDA)**:
 - **logistic regression**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html), [StreamDM](http://huawei-noah.github.io/streamDM/)
 - **Naive Bayes**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html), [StreamDM](http://huawei-noah.github.io/streamDM/)
 - **Perceptron**: [StreamDM](http://huawei-noah.github.io/streamDM/)
-- **SVM**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html), [StreamDM](http://huawei-noah.github.io/streamDM/)
+- **Support Vector Machine (SVM)**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html), [StreamDM](http://huawei-noah.github.io/streamDM/)
 
 
 ## Clustering
@@ -233,6 +234,11 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [lazy-linalg](https://github.com/brkyvz/lazy-linalg) - A package full of linear algebra operators for Apache Spark MLlib's linalg package
 - [ml-matrix](https://github.com/amplab/ml-matrix) - distributed matrix library
 
+### Algorithms
+
+- **Singular Value Decomposition (SVD)**:
+- **Principal Component Analysis (PCA)**:
+
 ## Matrix factorization & recommender systems
 
 ### Libraries
@@ -257,6 +263,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 ### Algorithms
 
 - **Coreference resolution**: [Spark CoreNLP](https://github.com/databricks/spark-corenlp)
+- **Latent Dirichlet Analysis (LDA)**: 
 - **Named Entity Recognition (NER)**: [Spark CoreNLP](https://github.com/databricks/spark-corenlp)
 - **Open information extraction**: [Spark CoreNLP](https://github.com/databricks/spark-corenlp)
 - **Part-of-speech (POS) tagging**: [Spark CoreNLP](https://github.com/databricks/spark-corenlp)
@@ -289,6 +296,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 - **Bayesian generalised linear models**: [revrand](https://github.com/NICTA/revrand)
 - **Linear regression**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html), [StreamDM](http://huawei-noah.github.io/streamDM/)
+- **Support Vector Machine (SVM)**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html)
 
 ## Statistics
 
