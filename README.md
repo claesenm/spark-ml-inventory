@@ -98,9 +98,10 @@ A curated inventory of machine learning methods available on the Apache Spark pl
 
 - [CaffeOnSpark](https://github.com/yahoo/CaffeOnSpark) - CaffeOnSpark brings deep learning to Hadoop and Spark clusters
 - [Elephas](http://maxpumperla.github.io/elephas/) - Distributed Deep learning with Keras & Spark
-- [Sparkling Water](http://www.h2o.ai/sparkling-water/) - H2O + Apache Spark
 - [Spark CoreNLP](https://github.com/databricks/spark-corenlp) - CoreNLP wrapper for Spark
-- [sparkplyr](http://spark.rstudio.com/mllib.html) - sparklyr provides R bindings to Spark’s distributed machine learning library
+- [Spark Highcharts](https://github.com/knockdata/spark-highcharts) - Support Highcharts in Apache Zeppelin
+- [Sparkling Water](http://www.h2o.ai/sparkling-water/) - H2O + Apache Spark
+- [sparklyr](http://spark.rstudio.com/mllib.html) - sparklyr provides R bindings to Spark’s distributed machine learning library
 - [Sparkit-learn](https://github.com/lensacom/sparkit-learn) - PySpark + Scikit-learn = Sparkit-learn
 - [Spark-TFOCS](https://github.com/databricks/spark-tfocs) - port of TFOCS: Templates for First-Order Conic Solvers (cvxr.com/tfocs)
 - [Hivemall-Spark](https://github.com/maropu/hivemall-spark) - A Hivemall wrapper for Spark
@@ -114,6 +115,7 @@ A curated inventory of machine learning methods available on the Apache Spark pl
 
 ## Visualization
 
+- [Spark Highcharts](https://github.com/knockdata/spark-highcharts) - Support Highcharts in Apache Zeppelin
 - [Spark ML streaming](https://github.com/freeman-lab/spark-ml-streaming) - Visualize streaming machine learning in Spark
 - [Vegas](https://github.com/vegas-viz/Vegas) - The missing MatPlotLib for Scala + Spark
 
