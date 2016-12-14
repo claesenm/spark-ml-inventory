@@ -115,6 +115,7 @@ A curated inventory of machine learning methods available on the Apache Spark pl
 
 ## Visualization
 
+- [Plotly](https://plot.ly/python/apache-spark/) - Spark Dataframes with Plotly
 - [Spark Highcharts](https://github.com/knockdata/spark-highcharts) - Support Highcharts in Apache Zeppelin
 - [Spark ML streaming](https://github.com/freeman-lab/spark-ml-streaming) - Visualize streaming machine learning in Spark
 - [Vegas](https://github.com/vegas-viz/Vegas) - The missing MatPlotLib for Scala + Spark
