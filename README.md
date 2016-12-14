@@ -42,7 +42,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
   - [Natural language processing](#natural-language-processing)
     - [Libraries](#libraries-8)
     - [Algorithms](#algorithms-5)
-  - [Optimization](#optimization)
+  - [Optimization & hyperparameter search](#optimization--hyperparameter-search)
     - [Libraries](#libraries-9)
     - [Algorithms](#algorithms-6)
   - [Regression](#regression)
@@ -137,6 +137,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 ### Libraries
 
 - [DistML](https://github.com/intel-machine-learning/DistML) - DistML provide a supplement to mllib to support model-parallel on Spark
+- [Elephas](http://maxpumperla.github.io/elephas/) - Distributed Deep learning with Keras & Spark
 - [spark-FM-parallelISGD](https://github.com/blebreton/spark-FM-parallelSGD) - Implementation of Factorization Machines on Spark using parallel stochastic gradient descent
 - [SparkBoost](https://github.com/tizfa/sparkboost) - A distributed implementation of AdaBoost.MH and MP-Boost using Apache Spark
 
@@ -244,15 +245,20 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - **Sentiment analysis**: [Spark CoreNLP](https://github.com/databricks/spark-corenlp)
 - **Topic Modelling**: [Spectral LDA on Spark](https://github.com/FurongHuang/spectrallda-tensorspark), [TopicModelling](https://github.com/intel-analytics/TopicModeling)
 
-## Optimization
+## Optimization & hyperparameter search
 
 ### Libraries
 
+- [MLlib](http://spark.apache.org/docs/latest/ml-guide.html) - Apache Spark's built in machine learning library
+
+- [Elephas](http://maxpumperla.github.io/elephas/) - Distributed Deep learning with Keras & Spark
 - [Spark-TFOCS](https://github.com/databricks/spark-tfocs) - port of TFOCS: Templates for First-Order Conic Solvers (cvxr.com/tfocs)
 
 ### Algorithms
 
 - **First-Order Conic solvers**: [Spark-TFOCS](https://github.com/databricks/spark-tfocs)
+- **Grid Search**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html)
+- **Tree of Parzen estimators (TPE -- hyperopt)**: [Elephas](http://maxpumperla.github.io/elephas/) - Distributed Deep learning with Keras & Spark
 
 ## Regression
 
