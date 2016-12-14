@@ -86,7 +86,6 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [Spark ML streaming](https://github.com/freeman-lab/spark-ml-streaming) - Visualize streaming machine learning in Spark
 - [Vegas](https://github.com/vegas-viz/Vegas) - The missing MatPlotLib for Scala + Spark
 
-
 ## Others
 
 - [Apache Toree](https://toree.apache.org/) - Gateway to Apache Spark
@@ -125,7 +124,11 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 ## Deep learning
 
+- [CaffeOnSpark](https://github.com/yahoo/CaffeOnSpark) - CaffeOnSpark brings deep learning to Hadoop and Spark clusters
+- [Deeplearning4j](https://deeplearning4j.org/spark.html) - Deeplearning4j on Spark
 - [DeepSpark](https://github.com/nearbydelta/deepspark) - A neural network library which uses Spark RDD instances
+- [Elephas](http://maxpumperla.github.io/elephas/) - Distributed Deep learning with Keras & Spark
+- [Sparkling Water](http://www.h2o.ai/sparkling-water/) - H2O + Apache Spark
 
 ## Feature selection & dimensionality reduction
 
@@ -152,6 +155,7 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 ## Natural language processing
 
+- [Spark CoreNLP](https://github.com/databricks/spark-corenlp) - CoreNLP wrapper for Spark
 - [TopicModelling](https://github.com/intel-analytics/TopicModeling) - Topic Modeling on Apache Spark
 
 ## Optimization
