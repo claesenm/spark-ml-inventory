@@ -52,11 +52,13 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 - [CoCoA](https://github.com/gingsmith/cocoa) - communication-efficient distributed coordinate ascent
 - [Deeplearning4j](https://deeplearning4j.org/spark.html) - Deeplearning4j on Spark
 - [DissolveStruct](http://dalab.github.io/dissolve-struct/) - Distributed Solver for Structured Prediction
+- [DistML](https://github.com/intel-machine-learning/DistML) - DistML provide a supplement to mllib to support model-parallel on Spark
 - [Elephas](http://maxpumperla.github.io/elephas/) - Distributed Deep learning with Keras & Spark
 - [Generalized K-means clustering](https://github.com/derrickburns/generalized-kmeans-clustering) - generalizes the Spark MLLIB Batch and Streaming K-Means clusterers in every practical way
 - [KeystoneML](http://keystone-ml.org/) - KeystoneML is a software framework, written in Scala, from the UC Berkeley AMPLab designed to simplify the construction of large scale, end-to-end, machine learning pipelines with Apache Spark
 - [MLbase](http://www.mlbase.org/) - MLbase is a platform addressing implementing and consuming Machine Learning at scale
 - [ml-matrix](https://github.com/amplab/ml-matrix) - distributed matrix library
+- [spark-ts](https://github.com/sryza/spark-timeseries) - Time series for Spark
 - [Sparkling Water](http://www.h2o.ai/sparkling-water/) - H2O + Apache Spark
 - [Splash](http://zhangyuc.github.io/splash/) - a general framework for parallelizing stochastic learning algorithms on multi-node clusters
 - [Spectral LDA on Spark](https://github.com/FurongHuang/spectrallda-tensorspark) -  implements a spectral (third order tensor decomposition) learning method for learning LDA topic model on Spark
@@ -104,10 +106,12 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 - [MLlib](http://spark.apache.org/docs/latest/ml-guide.html) - Apache Spark's built in machine learning library
 
-## Ensemble learning
+## Ensemble learning & parallel modelling
 
 ### Libraries
 
+- [DistML](https://github.com/intel-machine-learning/DistML) - DistML provide a supplement to mllib to support model-parallel on Spark
+- [spark-FM-parallelISGD](https://github.com/blebreton/spark-FM-parallelSGD) - Implementation of Factorization Machines on Spark using parallel stochastic gradient descent
 - [SparkBoost](https://github.com/tizfa/sparkboost) - A distributed implementation of AdaBoost.MH and MP-Boost using Apache Spark
 
 ## Classification
@@ -166,14 +170,21 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 ### Libraries
 
+- [spark-FM-parallelISGD](https://github.com/blebreton/spark-FM-parallelSGD) - Implementation of Factorization Machines on Spark using parallel stochastic gradient descent
 - [Spark-libFM](https://github.com/zhengruifeng/spark-libFM) - implementation of Factorization Machines
 - [Streaming Matrix Factorization](https://github.com/brkyvz/streaming-matrix-factorization) - Distributed Streaming Matrix Factorization implemented on Spark for Recommendation Systems
+
+### Algorithms
+
+- **Factorization Machines**: [spark-FM-parallelISGD](https://github.com/blebreton/spark-FM-parallelSGD), [Spark-libFM](https://github.com/zhengruifeng/spark-libFM)
+- **Matrix factorization**: [Streaming Matrix Factorization](https://github.com/brkyvz/streaming-matrix-factorization)
 
 ## Natural language processing
 
 ### Libraries
 
 - [Spark CoreNLP](https://github.com/databricks/spark-corenlp) - CoreNLP wrapper for Spark
+- [Spectral LDA on Spark](https://github.com/FurongHuang/spectrallda-tensorspark) -  implements a spectral (third order tensor decomposition) learning method for learning LDA topic model on Spark
 - [TopicModelling](https://github.com/intel-analytics/TopicModeling) - Topic Modeling on Apache Spark
 
 ### Algorithms
@@ -197,15 +208,9 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 ## Regression
 
-### Libraries
-
-### Algorithms
 
 ## Statistics
 
-### Libraries
-
-### Algorithms
 
 ## Tensor decompositions
 
@@ -216,6 +221,17 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 ### Algorithms
 
 - **Spectral LDA**: [Spectral LDA on Spark](https://github.com/FurongHuang/spectrallda-tensorspark)
+
+
+## Time series
+
+### Libraries
+
+- [spark-ts](https://github.com/sryza/spark-timeseries) - Time series for Spark
+- [Thunder](http://thunder-project.org/) - scalable image and time series analysis
+
+### Algorithms
+
 
 <!-- END OF MAIN CONTENT -->
 
