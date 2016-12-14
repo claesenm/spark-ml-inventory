@@ -124,6 +124,7 @@ A curated inventory of machine learning methods available on the Apache Spark pl
 
 - [Apache Toree](https://toree.apache.org/) - Gateway to Apache Spark
 - [Distributed DataFrame](http://ddf.io/) - Simplify Analytics on Disparate Data Sources via a Uniform API Across Engines
+- [Apache Metron](http://metron.incubator.apache.org/) - real-time Big Data security
 - [PipelineIO](http://pipeline.io/) - Extend ML Pipelines to Serve Production Users
 - [Spark Jobserver](https://github.com/spark-jobserver/spark-jobserver) - REST job server for Apache Spark
 - [Spark PMML exporter validator](https://github.com/selvinsource/spark-pmml-exporter-validator) - Using JPMML Evaluator to validate the PMML models exported from Spark
