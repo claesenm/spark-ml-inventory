@@ -100,15 +100,19 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 <!-- ALGORITHM INVENTORY -->
 
 
-# Algorithm inventory
+# Task inventory
 
 - [MLlib](http://spark.apache.org/docs/latest/ml-guide.html) - Apache Spark's built in machine learning library
 
 ## Ensemble learning
 
+### Libraries
+
 - [SparkBoost](https://github.com/tizfa/sparkboost) - A distributed implementation of AdaBoost.MH and MP-Boost using Apache Spark
 
 ## Classification
+
+### Libraries
 
 - [DissolveStruct](http://dalab.github.io/dissolve-struct/) - Distributed Solver for Structured Prediction
 - [Spark kNN graphs](https://github.com/tdebatty/spark-knn-graphs) - Spark algorithms for building k-nn graphs
@@ -117,12 +121,16 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 ## Clustering
 
+### Libraries
+
 - [Bisecting K-means](https://github.com/yu-iskw/bisecting-kmeans) - implementation of Bisecting KMeans Clustering which is a kind of Hierarchical Clustering algorithm
 - [Generalized K-means clustering](https://github.com/derrickburns/generalized-kmeans-clustering) - generalizes the Spark MLLIB Batch and Streaming K-Means clusterers in every practical way
 - [Patchwork](https://github.com/crim-ca/patchwork) - Highly Scalable Grid-Density Clustering Algorithm for Spark MLLib
 - [Spark TSNE](https://github.com/saurfang/spark-tsne) - Distributed t-SNE via Apache Spark
 
 ## Deep learning
+
+### Libraries
 
 - [CaffeOnSpark](https://github.com/yahoo/CaffeOnSpark) - CaffeOnSpark brings deep learning to Hadoop and Spark clusters
 - [Deeplearning4j](https://deeplearning4j.org/spark.html) - Deeplearning4j on Spark
@@ -132,6 +140,8 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 ## Feature selection & dimensionality reduction
 
+### Libraries
+
 - [Modelmatrix](https://github.com/collectivemedia/modelmatrix) - Sparse feature extraction with Spark
 - [Spark Infotheoretic Feature Selection](https://github.com/sramirez/spark-infotheoretic-feature-selection) - generic implementation of greedy Information Theoretic Feature Selection (FS) methods
 - [Spark MLDP discetization](https://github.com/sramirez/spark-MDLP-discretization) -  implementation of Fayyad's discretizer based on Minimum Description Length Principle (MDLP)
@@ -139,40 +149,73 @@ This inventory is inspired by [mfornos’ inventory of awesome microservices](ht
 
 ## Graph computations
 
+### Libraries
+
 - [GraphX](http://spark.apache.org/graphx/) - Apache Spark's API for graphs and graph-parallel computation
 
 - [Spark kNN graphs](https://github.com/tdebatty/spark-knn-graphs) - Spark algorithms for building k-nn graphs
 
 ## Linear algebra
 
+### Libraries
+
 - [lazy-linalg](https://github.com/brkyvz/lazy-linalg) - A package full of linear algebra operators for Apache Spark MLlib's linalg package
 - [ml-matrix](https://github.com/amplab/ml-matrix) - distributed matrix library
 
 ## Matrix factorization & recommender systems
+
+### Libraries
 
 - [Spark-libFM](https://github.com/zhengruifeng/spark-libFM) - implementation of Factorization Machines
 - [Streaming Matrix Factorization](https://github.com/brkyvz/streaming-matrix-factorization) - Distributed Streaming Matrix Factorization implemented on Spark for Recommendation Systems
 
 ## Natural language processing
 
+### Libraries
+
 - [Spark CoreNLP](https://github.com/databricks/spark-corenlp) - CoreNLP wrapper for Spark
 - [TopicModelling](https://github.com/intel-analytics/TopicModeling) - Topic Modeling on Apache Spark
 
+### Algorithms
+
+- **Coreference resolution**: [Spark CoreNLP](https://github.com/databricks/spark-corenlp)
+- **Named Entity Recognition (NER)**: [Spark CoreNLP](https://github.com/databricks/spark-corenlp)
+- **Open information extraction**: [Spark CoreNLP](https://github.com/databricks/spark-corenlp)
+- **Part-of-speech (POS) tagging**: [Spark CoreNLP](https://github.com/databricks/spark-corenlp)
+- **Sentiment analysis**: [Spark CoreNLP](https://github.com/databricks/spark-corenlp)
+- **Topic Modelling**: [TopicModelling](https://github.com/intel-analytics/TopicModeling)
+
 ## Optimization
+
+### Libraries
 
 - [Spark-TFOCS](https://github.com/databricks/spark-tfocs) - port of TFOCS: Templates for First-Order Conic Solvers (cvxr.com/tfocs)
 
+### Algorithms
+
+- **First-Order Conic solvers**: [Spark-TFOCS](https://github.com/databricks/spark-tfocs)
 
 ## Regression
 
+### Libraries
+
+### Algorithms
 
 ## Statistics
 
+### Libraries
+
+### Algorithms
 
 ## Tensor decompositions
 
+### Libraries
 
+- [Spectral LDA on Spark](https://github.com/FurongHuang/spectrallda-tensorspark) -  implements a spectral (third order tensor decomposition) learning method for learning LDA topic model on Spark
 
+### Algorithms
+
+- **Spectral LDA**: [Spectral LDA on Spark](https://github.com/FurongHuang/spectrallda-tensorspark)
 
 <!-- END OF MAIN CONTENT -->
 
