@@ -76,6 +76,7 @@ A curated inventory of machine learning methods available on the Apache Spark pl
 
 - [Aerosolve](http://airbnb.io/aerosolve/) - A machine learning package built for humans
 - [AMIDST](http://www.amidsttoolbox.com/) - probabilistic machine learning
+- [BigDL](https://github.com/intel-analytics/BigDL) - BigDL: Distributed Deep Learning Library for Apache Spark
 - [CoCoA](https://github.com/gingsmith/cocoa) - communication-efficient distributed coordinate ascent
 - [Deeplearning4j](https://deeplearning4j.org/spark.html) - Deeplearning4j on Spark
 - [DissolveStruct](http://dalab.github.io/dissolve-struct/) - Distributed Solver for Structured Prediction
@@ -106,13 +107,14 @@ A curated inventory of machine learning methods available on the Apache Spark pl
 - [Spark-TFOCS](https://github.com/databricks/spark-tfocs) - port of TFOCS: Templates for First-Order Conic Solvers (cvxr.com/tfocs)
 - [Hivemall-Spark](https://github.com/maropu/hivemall-spark) - A Hivemall wrapper for Spark
 - [Spark PMML exporter validator](https://github.com/selvinsource/spark-pmml-exporter-validator) - Using JPMML Evaluator to validate the PMML models exported from Spark
+- [TensorFrames](https://github.com/databricks/tensorframes) - Tensorflow wrapper for DataFrames on Apache Spark
 
 ## Notebooks
 
+- [Apache Zeppelin](https://zeppelin.apache.org/) - A web-based notebook that enables interactive data analytics
 - [Beaker](http://beakernotebook.com/) - The data scientist's laboratory
 - [Spark Notebook](http://spark-notebook.io/) - Interactive and Reactive Data Science using Scala and Spark
 - [sparknotebook](https://github.com/hohonuuli/sparknotebook) - running Apache Spark using Scala in ipython notebook
-- [Apache Zeppelin](https://zeppelin.apache.org/) - A web-based notebook that enables interactive data analytics
 
 ## Visualization
 
@@ -205,17 +207,6 @@ A curated inventory of machine learning methods available on the Apache Spark pl
 - **StreamKM++**: [StreamDM](http://huawei-noah.github.io/streamDM/)
 - **t-SNE**: [spark-tsne](https://github.com/saurfang/spark-tsne)
 
-
-## Deep Learning
-
-### Libraries
-
-- [CaffeOnSpark](https://github.com/yahoo/CaffeOnSpark) - CaffeOnSpark brings deep learning to Hadoop and Spark clusters
-- [Deeplearning4j](https://deeplearning4j.org/spark.html) - Deeplearning4j on Spark
-- [DeepSpark](https://github.com/nearbydelta/deepspark) - A neural network library which uses Spark RDD instances
-- [Elephas](http://maxpumperla.github.io/elephas/) - Distributed Deep learning with Keras & Spark
-- [Sparkling Water](http://www.h2o.ai/sparkling-water/) - H2O + Apache Spark
-
 ## Data Transformation, Feature Selection & Dimensionality Reduction
 
 ### Libraries
@@ -235,6 +226,18 @@ A curated inventory of machine learning methods available on the Apache Spark pl
 - **TF-IDF**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html)
 - **t-SNE**: [spark-tsne](https://github.com/saurfang/spark-tsne)
 - **Word2Vec**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html)
+
+## Deep Learning
+
+### Libraries
+
+- [BigDL](https://github.com/intel-analytics/BigDL) - BigDL: Distributed Deep Learning Library for Apache Spark
+- [CaffeOnSpark](https://github.com/yahoo/CaffeOnSpark) - CaffeOnSpark brings deep learning to Hadoop and Spark clusters
+- [Deeplearning4j](https://deeplearning4j.org/spark.html) - Deeplearning4j on Spark
+- [DeepSpark](https://github.com/nearbydelta/deepspark) - A neural network library which uses Spark RDD instances
+- [Elephas](http://maxpumperla.github.io/elephas/) - Distributed Deep learning with Keras & Spark
+- [Sparkling Water](http://www.h2o.ai/sparkling-water/) - H2O + Apache Spark
+- [TensorFrames](https://github.com/databricks/tensorframes) - Tensorflow wrapper for DataFrames on Apache Spark
 
 ## Graph computations
 
@@ -260,7 +263,7 @@ A curated inventory of machine learning methods available on the Apache Spark pl
 
 ### Algorithms
 
-- **Singular Value Decomposition (SVD)**:
+- **Singular Value Decomposition (SVD)**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html)
 - **Principal Component Analysis (PCA)**: [MLlib](http://spark.apache.org/docs/latest/ml-guide.html)
 
 ## Matrix factorization & recommender systems
